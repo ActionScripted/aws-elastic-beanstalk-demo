@@ -1,0 +1,17 @@
+# File System
+.DS_Store
+.Trashes
+._*
+[Tt]humbs.db
+
+# Vim
+*.s[a-w][a-z]
+*.un~
+*~
+.netrwhist
+Session.vim
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

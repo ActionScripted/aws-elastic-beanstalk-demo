@@ -1,6 +1,8 @@
 <h1>Hello World!!!</h1>
 <h3>PHP Version <pre><?= phpversion()?></pre></h3>
 
+<?= 'asdfasdf' . 'asdfasdfasdfasdfadsfasdf' ?>
+
 Hey, is RDS around?
 <?php if ($_SERVER['RDS_HOSTNAME']): ?>
   <p><strong>YUP!</strong> RDS host name and other config are available in <code>$_SERVER</code>.</p>
